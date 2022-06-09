@@ -1,0 +1,41 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    def letters(word):
+        yield
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/8276#comment
+status: Failed
+feedback:
+  message: |
+    Failed test #1 of 4. Runtime error
+
+    This is a sample test from the problem statement!
+
+    Test input:
+    python
+    Correct output:
+    p
+    y
+    t
+    h
+    o
+    n
+
+    Your code output:
+    p
+    y
+    t
+    h
+    o
+    n
+
+    Error:
+    Traceback (most recent call last):
+      File "jailed_code", line 14, in <module>
+        for letter in letters(input()):
+    EOFError: EOF when reading a line
+  time: Wed, 08 Jun 2022 18:23:46 UTC
+record: -1
